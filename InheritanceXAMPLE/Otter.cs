@@ -4,7 +4,7 @@ using System.Text;
 
 namespace InheritanceXAMPLE
 {
-    public class Otter:Mammels
+    public class Otter:Mammals
     {
         private int underWater;
 
@@ -12,6 +12,5 @@ namespace InheritanceXAMPLE
         {
             this.underWater = underWater;
         }
-
     }
 }

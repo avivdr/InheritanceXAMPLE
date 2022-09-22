@@ -4,11 +4,11 @@ using System.Text;
 
 namespace InheritanceXAMPLE
 {
-    public  class Animals
+    public class Animals
     {
-        private string Animaltype;
-        private double weight;
-        private string name;
+        protected string Animaltype;
+        protected double weight;
+        protected string name;
 
         public Animals(string type, double weight, string name)
         {
